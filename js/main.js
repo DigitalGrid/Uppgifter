@@ -63,14 +63,11 @@ $(document).ready(function() {
       var description = obj.description ? obj.description : "Description missing";
       var title = obj.name || obj.title;
       
-      console.log(obj);
-      
       html += "<div class='result-container row'>";
       
       html += "<div class='poster-container col-xs-3'>";
       html += "<img class='img-responsive' src='" + imagePath + "' alt='result-poster'>";
       html += "</div>";
-      
       
       html += "<div class='info-container col-xs-9'>";
       html += "<h2>" + title + "</h2>";
