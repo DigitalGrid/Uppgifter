@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Marvel API Test</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom -->
+    <link href="css/custom.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="text-center">
+        <h1>Marvel API Test</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="input-group input-group-lg" id="search">
+              <span class="input-group-addon primary"><span class="glyphicon glyphicon-user"></span></span>
+              <input id="search-input" type="text" class="form-control" placeholder="Search Character">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tags">
+        <div class="btn-group" role="group" aria-label="...">
+          <button type="button" class="btn btn-default" id="character">Characters</button>
+          <button type="button" class="btn btn-default" id="comics">Comics</button>
+          <button type="button" class="btn btn-default" id="series">Series</button>
+        </div>
+      </div>
+      
+      <div class="results">
+        <!-- results goes here -->
+      </div> 
+    </div> <!-- container -->
+
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

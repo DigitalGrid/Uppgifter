@@ -1,0 +1,54 @@
+/* ---------- 
+ General 
+---------- */
+body {
+  overflow-y:scroll;
+}
+
+h1 {
+  color: #444;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top:0; 
+  color: #444;
+}
+
+/* ---------- 
+ Specific 
+---------- */
+.input-group-addon.primary {
+  color: rgb(255, 255, 255);
+  background-color: #444;
+  border-color: #444;
+}
+
+.loading {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.result-container {
+  margin: 0px 0 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.release {
+  font-weight: bold;
+}
+
+#search {
+  max-width: 600px;
+  margin: 40px auto 80px auto;
+}
+
+.tags {
+  margin-bottom: 30px; 
+}
+
+.vote {
+  padding:6px 8px;
+}
